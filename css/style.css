@@ -1,0 +1,99 @@
+.brand-font{
+    font-family: 'Oxygen', sans-serif;
+    color: #ffffff;
+    
+}
+.brand-font:hover{
+    color: #02D463;
+    transition-delay: 100ms;
+}
+
+.header{
+    background-image: url('../assets/bg.jpg');
+    height: 100vh;
+}
+/* RUBBER BAND CODE STARTS */
+.rubber {
+   animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  color: white;
+  font-family: 'Nerko One', cursive;
+  display: inline-block;
+}
+
+.rubber:hover {
+  animation-name: rubberBand;
+  color: #02D463;
+}
+
+
+@keyframes rubberBand {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+.rubberBand {
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand;
+}
+
+/* RUBBER BAND CODE ENDS */
+
+.intro{
+    margin-top: 20vh;
+    margin-left: 10vw;
+    color: #02D463;
+    display: inline-block;
+}
+.image-header{
+    max-width: 400px;
+    max-height: 400px;
+    border: none;
+    border-radius: 50%;
+    opacity: 0.4;
+}
+.image{
+    display: inline-block;
+    float: right;
+    margin-right: 10rem;
+    margin-top: 7rem;
+    max-width: 400px;
+    max-height: 400px;
+    background-color: black;
+    border-radius: 50%;
+   
+}
+.image-header:hover{
+    opacity: 1;
+}
+
+
+@media screen and (max-width : 420px){
+
+}
