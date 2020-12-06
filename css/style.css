@@ -93,7 +93,30 @@
     opacity: 1;
 }
 
-
+.flexy{
+  display: flex;
+  flex-wrap: wrap;
+}
 @media screen and (max-width : 420px){
+  .header{
+      background-image: url('../assets/bg.jpg');
+      height: 120vh;
+  }
+  .image-header{
+    max-width: 250px;
+    max-height: 250px;
+    opacity: 0.6;
+  }
+  .image{
+    float: center;
+    margin-right: 5.2rem;
+  }
+ 
+  }
 
+@media screen and (max-width : 360px){
+  .image{
+    float: center;
+    margin-right: 2.4rem;
+  }
 }
