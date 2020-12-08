@@ -19,13 +19,20 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <div class="header" id="header">
     <!-- NAVBAR CODE BEGINS -->
     <nav class="navbar navbar-expand-lg bg-transparent">
-        <a class="navbar-brand brand-font" href="#header" id="brand">Shubhra Agarwal</a>
+        <a class="navbar-brand brand-font" href="#header" id="brand">Shubhra</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
             aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,7 +40,10 @@
         <div class="collapse navbar-collapse brand-font" id="navbarText">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item ">
-                    <a class="nav-link brand-font" href="#">About</a>
+                    <a class="nav-link brand-font" href="#aboutme">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link brand-font" href="#skills">Skills</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link brand-font" href="#">Projects</a>
@@ -45,6 +55,8 @@
         </div>
     </nav>
     <!-- NAVBAR CODE ENDS -->
+
+    <!-- HEADER BEGINS -->
     <div>
         <div class="intro">
         <h4>Hi, I am</h4>
@@ -89,11 +101,60 @@
         <div class="image">
         <img src="assets/pfp.jpg" alt="Profile Picture" class="image-header">
         </div>
+    </div>
+</div>
+        <!-- HEADER ENDS -->
+
+    <div class="about" >
+        <div class="h11" id="h11">
+        &lt;h1 &gt;
+        </div>
+        <h1 class="aboutme" id="aboutme" 
+            onmouseover = "handleMouseOver()"
+            onmouseout="handleMouseOut()" >
+            ABOUT ME 
+        </h1>
+        <div class="h12" id = 'h12'>
+        &lt;/h1 &gt;
+        </div>
+        <div class="description">
+            <h3 class="description-h3">
+                Started as tech enthusiast, later developed keen interest in programming. I have always been interested in
+                learning new
+                technical things, solving problems. Started web development in June,2020. Currently a full stack developer, highly motivated to collaborate with someone.
+                If you are up into some projects, just let me know! Apart from web development, I also have a keen interest in Computer Vision and GUI Development.
+            </h3>
+        </div>
+    
+    </div>
+    
+        <!-- ABOUT ENDS  -->
+    <div class="skills">
+        <div class="h11" id="h13">
+            &lt;h1 &gt;
+        </div>
+        <h1 class="aboutme" id="aboutme" onmouseover="handleMouseOver1()" onmouseout="handleMouseOut1()">
+            SKILLS
+        </h1>
+        <div class="h12" id='h14'>
+            &lt;/h1 &gt;
+        </div>
+        <br> <br>
+        <div class="technologies">
+            <ul>
+                <ul>
+                    <i class="fab fa-react">React</i>
+                    React
+                </ul>
+
+            </ul>
+        </div>
+
+    </div>
 
 
         
-    </div>
-</div>
+    
 
 
 

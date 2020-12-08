@@ -1,3 +1,7 @@
+*{
+  scroll-behavior: smooth;
+}
+
 .brand-font{
     font-family: 'Oxygen', sans-serif;
     color: #ffffff;
@@ -11,6 +15,10 @@
 .header{
     background-image: url('../assets/bg.jpg');
     height: 100vh;
+      background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /* RUBBER BAND CODE STARTS */
 .rubber {
@@ -97,7 +105,70 @@
   display: flex;
   flex-wrap: wrap;
 }
-@media screen and (max-width : 420px){
+
+
+/* ABOUT BEGINS*/
+.about{
+  min-height: 100vh;
+  width: 98.8vw;
+  background-color: rgb(26, 26, 26) ;
+}
+.aboutme{
+  color: whitesmoke;
+  font-size: 600%;
+  display: flex ;
+  justify-content: space-evenly;
+  font-family: 'Do Hyeon', sans-serif;
+  
+}
+.aboutme:hover{
+  color: #02D463;
+}
+
+
+.h11{
+  display: flex-end;
+  font-family: 'Oxygen', cursive;
+  color: #02D463;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  font-size: 200%;
+
+}
+
+.h12{
+  font-family: 'Oxygen', cursive;
+  color: #02D463;
+  float: right;
+  font-size: 200%;
+  display: flex;
+  padding-right: 2rem;
+}
+.description{
+  display: flex;
+  margin-top: 4rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+.description-h3{
+  color: aliceblue; 
+   font-family: 'Orbitron', sans-serif;
+}
+.skills{
+  min-height: 100vh;
+  width: 98.8vw;
+  background-color: rgb(17,17,17) ;
+}
+
+.technologies{
+  color: aliceblue;
+}
+
+
+
+
+
+@media screen and (max-width : 420px)  {
   .header{
       background-image: url('../assets/bg.jpg');
       height: 120vh;
@@ -111,12 +182,24 @@
     float: center;
     margin-right: 5.2rem;
   }
- 
+  .about{
+    width: 100vw;
+  } 
+  .aboutme{
+    font-size: 400%;
   }
+  .description{
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
 
 @media screen and (max-width : 360px){
   .image{
     float: center;
     margin-right: 2.4rem;
+  }
+  .about{
+    margin-top: 30vh;
   }
 }
