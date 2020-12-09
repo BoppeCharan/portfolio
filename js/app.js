@@ -15,3 +15,11 @@
         document.getElementById('h14').style.color = '#02D463';
         document.getElementById('h13').style.color = '#02D463';
  }
+  function handleMouseOver2() {
+        document.getElementById('h15').style.color = 'white';
+        document.getElementById('h16').style.color = 'white';
+ }
+  function handleMouseOut2() {
+        document.getElementById('h15').style.color = '#02D463';
+        document.getElementById('h16').style.color = '#02D463';
+ }
