@@ -276,7 +276,9 @@
     margin-left: 2rem;
     margin-right: 2rem;
   }
-
+  .hover{
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width : 360px){
@@ -348,7 +350,7 @@ body {
   font: 18px/1.5 "Open Sans", sans-serif;
   background: var(--bodyColor);
   color: var(--white);
-  margin: 1.5rem 0;
+  
 }
 
 .container {
@@ -464,50 +466,6 @@ body {
   transform: translateX(110%);
 }
 
-
-/* CUSTOM CHECKBOX
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.my-form input[type="checkbox"] {
-  position: absolute;
-  left: -9999px;
-}
-
-.my-form input[type="checkbox"] + label {
-  position: relative;
-  display: inline-block;
-  padding-left: 2rem;
-  transition: background 0.3s cubic-bezier(0.57, 0.21, 0.69, 1.25);
-}
-
-.my-form input[type="checkbox"] + label::before,
-.my-form input[type="checkbox"] + label::after {
-  content: '';
-  position: absolute;
-}
-
-.my-form input[type="checkbox"] + label::before {
-  left: 0;
-  top: 6px;
-  width: 18px;
-  height: 18px;
-  border: 2px solid var(--white);
-}
-
-.my-form input[type="checkbox"]:checked + label::before {
-  background: var(--red);
-}
-
-.my-form input[type="checkbox"]:checked + label::after {
-  left: 7px;
-  top: 7px;
-  width: 6px;
-  height: 14px;
-  border-bottom: 2px solid var(--white);
-  border-right: 2px solid var(--white);
-  transform: rotate(45deg);
-}
-
-
 /* FOOTER
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 footer {
@@ -560,4 +518,70 @@ footer span {
   .my-form input[type="checkbox"]:checked + label::after {
     top: 3px;
   }
+}
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+body {
+	background-color: rgba(0, 181, 245, 0.05);
+}
+
+.social-container {
+	width: 400px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.social-icons {
+	padding: 0;
+	list-style: none;
+	margin: 1em;
+}
+
+.social-icons li {
+	display: inline-block;
+	margin: 0.15em;
+	position: relative;
+	font-size: 1.2em;
+}
+
+.social-icons i {
+	color: rgb(17,17,17);
+	position: absolute;
+	top: 21px;
+	left: 21px;
+	transition: all 265ms ease-out;
+}
+
+.social-icons a {
+	display: inline-block;
+}
+
+.social-icons a:before {
+	transform: scale(1);
+	-ms-transform: scale(1);
+	-webkit-transform: scale(1);
+	content: " ";
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	display: block;
+	background: #0CFD7B;
+	transition: all 265ms ease-out;
+}
+
+.social-icons a:hover:before {
+	transform: scale(0);
+	transition: all 265ms ease-in;
+}
+
+.social-icons a:hover i {
+	transform: scale(2.2);
+	-ms-transform: scale(2.2);
+	-webkit-transform: scale(2.2);
+	color: #00B5F5;
+	background: #0CFD7B;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: all 265ms ease-in;
 }
