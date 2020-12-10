@@ -23,3 +23,12 @@
         document.getElementById('h15').style.color = '#02D463';
         document.getElementById('h16').style.color = '#02D463';
  }
+
+   function handleMouseOver3() {
+        document.getElementById('h17').style.color = 'white';
+        document.getElementById('h18').style.color = 'white';
+ }
+  function handleMouseOut3() {
+        document.getElementById('h17').style.color = '#02D463';
+        document.getElementById('h18').style.color = '#02D463';
+ }
