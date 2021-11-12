@@ -8,7 +8,7 @@
     
 }
 .brand-font:hover{
-    color: #02D463;
+    color: #fdb10c;
     transition-delay: 100ms;
 }
 
@@ -32,7 +32,7 @@
 
 .rubber:hover {
   animation-name: rubberBand;
-  color: #02D463;
+  color: #fdb10c;
 }
 
 
@@ -76,7 +76,7 @@
 .intro{
     margin-top: 20vh;
     margin-left: 10vw;
-    color: #02D463;
+    color: #fdb10c;
     display: inline-block;
 }
 .image-header{
@@ -122,14 +122,14 @@
   
 }
 .aboutme:hover{
-  color: #02D463;
+  color: #fdb10c;
 }
 
 
 .h11{
   display: flex-end;
   font-family: 'Oxygen', cursive;
-  color: #02D463;
+  color: #fdb10c;
   padding-top: 1rem;
   padding-left: 2rem;
   font-size: 200%;
@@ -138,7 +138,7 @@
 
 .h12{
   font-family: 'Oxygen', cursive;
-  color: #02D463;
+  color: #fdb10c;
   float: right;
   font-size: 200%;
   display: flex;
@@ -175,7 +175,7 @@
 
  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
-  background-color:#0CFD7B ;
+  background-color:#fdb10c ;
   width: 100px;
   height: 100px;
   border: 1px solid #f1f1f1;
@@ -210,7 +210,7 @@
 
 /* Style the front side (fallback if image is missing) */
 .flip-card-front {
-  background-color: #02D463;;
+  background-color: #CFA430;;
   color: rgb(17,17,17);
 }
 
@@ -237,7 +237,7 @@
 }
 
 .projects-a:hover{
-  color: #02D463;
+  color: #fdb10c;
   text-decoration: none;
 }
 
@@ -568,7 +568,7 @@ body {
 	height: 60px;
 	border-radius: 100%;
 	display: block;
-	background: #0CFD7B;
+	background: #fdb10c;
 	transition: all 265ms ease-out;
 }
 
