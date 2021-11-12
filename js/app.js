@@ -32,3 +32,16 @@
         document.getElementById('h17').style.color = '#02D463';
         document.getElementById('h18').style.color = '#02D463';
  }
+
+
+
+function validate(){
+       
+       var name = document.getElementById("firstName").value;
+       var lastName = document.getElementById("lastName").value;
+       var phone = document.getElementById("phoneNumber").value;
+       var email = document.getElementById("email").value;
+       var message = document.getElementById("message").value;
+       var error_message = document.getElementById("error_message");
+       alert("Hey "+name+",I will Contact You")
+     }
